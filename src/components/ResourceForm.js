@@ -58,7 +58,7 @@ class ResourceForm extends Component {
             style={styles.input}
             id="posterName"
             type="text"
-            placeholder="Your User Name"
+            placeholder="User Name"
             value={this.state.posterName}
             onChange={this.handleChange}
             required
@@ -73,7 +73,7 @@ class ResourceForm extends Component {
           />
           <input
             style={styles.input}
-            id=""
+            id="gameTitle"
             type="text"
             placeholder="Game Title"
             value={this.state.gameTitle}
